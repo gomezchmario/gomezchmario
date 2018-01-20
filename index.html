@@ -2,90 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-<title>Web Programming Project #1</title>
+    <title>Web Programming Project #1</title>
+    <link rel="stylesheet" href="classstyle.css">
 
-    <style type="text/css">
-
-        body{
-            color: white;
-            font-family: Tahoma, sans-serif;
-            font-style: italic;;
-        }
-
-    </style>
 </head>
 
 <body>
-    <body background="https://i.imgur.com/PIfitNL.jpg">
+<body background="https://i.imgur.com/PIfitNL.jpg">
 
-    <div style="display: inline;">
-        <img src="https://openclipart.org/image/2400px/svg_to_png/289583/Gradient-04.png" width="100%" height="68" />
-        <h1 style="position: absolute; top: 0px; left: 375px;">  Mario Gomez Charles  </h1></div>
+<div style="display: inline; color: peachpuff;" >
+    <img src="https://openclipart.org/image/2400px/svg_to_png/289583/Gradient-04.png" width="100%" height="68" />
+    <h1 style="position: absolute; top: 0px; left: 375px;">  Mario Gomez Charles  </h1></div>
 
-    <div>
-   <p><h2> Lorem Ipsum  </p> </h1>
+<div>
+    <p><h2> Lorem Ipsum  </p> </h1>
 
-      <span style="color: yellow; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a felis sed ligula bibendum pretium a id lectus. Suspendisse sed justo et ipsum consectetur congue vel vel libero. In eu ex dui. Maecenas eget lectus ac lacus volutpat faucibus eu eget tortor. Suspendisse convallis, purus at vulputate venenatis, lectus quam blandit augue, at mattis lacus felis eu tellus. Mauris et velit fermentum, convallis dolor ut, aliquam neque. Nullam non odio dui. Proin gravida velit felis. Nullam finibus metus in massa condimentum auctor.
+    <span style="color: yellow; font-size: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a felis sed ligula bibendum pretium a id lectus. Suspendisse sed justo et ipsum consectetur congue vel vel libero. In eu ex dui. Maecenas eget lectus ac lacus volutpat faucibus eu eget tortor. Suspendisse convallis, purus at vulputate venenatis, lectus quam blandit augue, at mattis lacus felis eu tellus. Mauris et velit fermentum, convallis dolor ut, aliquam neque. Nullam non odio dui. Proin gravida velit felis. Nullam finibus metus in massa condimentum auctor.
     <br> </div>
-    &nbsp;
-    <div align="center">
+&nbsp;
+<div style="text-align:center">
 
-        <iframe src="https://en.m.wikipedia.org/wiki/Lorem_ipsum" height="200" width="600"></iframe>
-    </div>
+    <iframe src="https://en.m.wikipedia.org/wiki/Lorem_ipsum" height="200" width="600"></iframe>
+</div>
 
-    <div align="center">
+<div style="text-align:center">
 
     <br>
-        <table border="1">
-            <tr>
-                <td colspan="2"> Vivamus vel urna lectus.</td>
-                <td rowspan="2"> Donec sed fermentum diam.</td>
+    <table border="1">
+        <tr>
+            <td colspan="2" id="test1"> Vivamus vel urna lectus.</td>
+            <td rowspan="2" id="test2"> Donec sed fermentum diam.</td>
 
-            </tr>
-            <tr>
-                <td><a href="https://www.lipsum.com/"> Quis elit nibh.</a> </td>
-                <td>Pellentesque in mi velit. </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.lipsum.com"> Quis elit nibh.</a> </td>
+            <td>Pellentesque in mi velit. </td>
 
-            </tr>
-            <tr>
-                <td>Aliquam erat volutpat.</td>
-                <td>Commodo non odio et.</td>
-                <td>Maximus ante id.</td>
+        </tr>
+        <tr>
+            <td style="color: green;">Aliquam erat volutpat.</td>
+            <td style="color: yellow;">Commodo non odio et.</td>
+            <td>Maximus ante id.</td>
 
-            </tr>
+        </tr>
 
-        </table>
+    </table>
 
 
 </div>
 
 
-    <div style="padding-left:100px;">
+<div style="padding-left:100px;">
 
-        <ul>
-            <li>Quisque ornare mollis felis at auctor.
-                <ul>
-                    <li>  Vivamus rutrum est sed leo vehicula, pharetra luctus lacus pharetra.
-                        <ul>
-                            <li>In sed nisl ut magna gravida condimentum. </li>
-                            <li>In sed nisl ut vehicula gravida rutrum. </li>
-                        </ul>
-                    </li>
-                    <li>  Duis vel ipsum commodo, convallis tellus sit amet, mollis ligula.
-                        <ul>
-                            <li> Etiam et ultricies lorem.</li>
-                            <li> Mauris non ante vehicula nunc congue porttitor. </li>
-                            <div style="padding-left:50px;">
-                                <li>Fusce ut nulla at nulla ultrices efficitur.</li>
-                                <li>Nulla eget consectetur turpis.</li>
-                            </div>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+    <ul>
+        <li>Quisque ornare mollis felis at auctor.
+            <ul>
+                <li>  Vivamus rutrum est sed leo vehicula, pharetra luctus lacus pharetra.
+                    <ul>
+                        <li>In sed nisl ut magna gravida condimentum. </li>
+                        <li>In sed nisl ut vehicula gravida rutrum. </li>
+                    </ul>
+                </li>
+                <li>  Duis vel ipsum commodo, convallis tellus sit amet, mollis ligula.
+                    <ul>
+                        <li class="test1"> Etiam et ultricies lorem.</li>
+                        <li> Mauris non ante vehicula nunc congue porttitor. </li>
+                        <div style="padding-left:50px;">
+                            <li class="test2">Fusce ut nulla at nulla ultrices efficitur.</li>
+                            <li>Nulla eget consectetur turpis.</li>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
 
-    </div>
+</div>
 
 </body>
 </html>

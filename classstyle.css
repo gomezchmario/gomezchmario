@@ -1,0 +1,29 @@
+
+body{
+    color: white;
+    font-family: Tahoma, sans-serif;
+    font-style: italic;
+}
+
+a[href$='.com']{
+    background-color: greenyellow;
+}
+
+a[href^="https"]{
+    color: black;
+}
+
+td[id='test']{
+    color: red;
+
+}
+td[id='test2']{
+    color: blue;
+}
+li[class='test1']{
+    color: green;
+}
+li[class='test2']{
+    color: orange
+
+}
